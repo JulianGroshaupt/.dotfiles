@@ -14,3 +14,7 @@
 
 * https://github.com/thoughtbot/rcm
 * https://thoughtbot.com/upcase/videos/manage-and-share-your-dotfiles-with-rcm
+
+## license
+
+MIT License, see [LICENSE](https://github.com/JulianGroshaupt/.dotfiles/blob/main/LICENSE)
