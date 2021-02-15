@@ -1,1 +1,2 @@
 EXCLUDES="README.md LICENSE install.sh update.sh"
+DOTFILES_DIRS=".dotfiles .dotfiles-private"
