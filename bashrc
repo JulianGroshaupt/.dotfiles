@@ -97,7 +97,9 @@ fi
 #fi
 
 source ~/.aliases
-source ~/.aliases.local
+if [ -f ~/.aliases.local ]; then
+    source ~/.aliases.local
+fi
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -112,4 +114,6 @@ fi
 
 # read exports
 source ~/.exports
-source ~/.exports.local
+if [ -f ~/.exports.local ]; then
+    source ~/.exports.local
+fi

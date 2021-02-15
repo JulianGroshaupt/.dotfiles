@@ -1,7 +1,11 @@
 # read aliases
 source ~/.aliases
-source ~/.aliases.local
+if [ -f ~/.aliases.local ]; then
+    source ~/.aliases.local
+fi
   
 # read exports
 source ~/.exports
-source ~/.exports.local
+if [ -f ~/.exports.local ]; then
+    source ~/.exports.local
+fi

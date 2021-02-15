@@ -18,6 +18,13 @@ you need to install the following packages to use this dotfiles to their full ex
 
 1. run update.sh
 
+## .local-dotfiles
+
+you can create the following files in your home-directory, that will automatically be "sourced" if they exist
+
+* ~/.aliases.local
+* ~/.exports.local
+
 ## sources
 
 * https://github.com/thoughtbot/rcm

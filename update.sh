@@ -9,6 +9,3 @@ git pull
 
 # update
 rcup
-
-# create local-dotfiles
-./create_locals.sh
