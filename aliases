@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# easier navigation
+alias ..="cd .."
+
+# ls
+alias lls="ls -l"
+alias lla="ls -la"
+
+# cd & clear
+alias cdc="cd && clear"

@@ -1,1 +1,1 @@
-EXCLUDES="README.md LICENSE install.sh update.sh"
+EXCLUDES="README.md LICENSE install.sh create_locals.sh update.sh"
