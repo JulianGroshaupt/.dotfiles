@@ -1,8 +1,16 @@
 # dofiles
 
+## required packages
+
+you need to install the following packages to use this dotfiles to their full extent
+
+* git
+* vim
+* rcm ([see here](https://github.com/thoughtbot/rcm#installation))
+
 ## install
 
-1. install rcm ([see here](https://github.com/thoughtbot/rcm#installation))
+1. install required packages (see above)
 2. clone this repository
 3. run install.sh
 
