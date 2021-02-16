@@ -26,6 +26,10 @@ you can create the following files in your home-directory, that will automatical
 * ~/.aliases.local
 * ~/.exports.local
 
+## oh-my-zsh custom folder
+
+* everything inside the ```oh-my-zsh/custom``` folder of this repository will be copied to the custom folder inside your oh-my-zsh installation (````$ZSH/custom````)
+
 ## sources
 
 * https://github.com/thoughtbot/rcm

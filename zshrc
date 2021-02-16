@@ -16,7 +16,7 @@ if [[ "$SHELL" == *zsh ]]; then
     export ZSH="$HOME/.oh-my-zsh"
 
     # update the theme here
-    ZSH_THEME=""
+    ZSH_THEME="my-theme"
 
     # update list of plugins here
     plugins=(

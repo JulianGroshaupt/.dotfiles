@@ -1,2 +1,2 @@
-EXCLUDES="README.md LICENSE install.sh update.sh"
+EXCLUDES="README.md LICENSE install.sh update.sh oh-my-zsh"
 DOTFILES_DIRS=".dotfiles .dotfiles-private"
