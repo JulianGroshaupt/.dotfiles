@@ -9,7 +9,7 @@ you need to install the following packages to use this dotfiles to their full ex
 * git
 * vim
 * rcm ([see here](https://github.com/thoughtbot/rcm#installation))
-* oh-my-zsh ([see here](https://github.com/ohmyzsh/ohmyzsh)) installed to ```$HOME/.oh-my-zsh``` (if oh-my-zsh is not installed in your home-directory you need to modify the .zshrc file)
+* oh-my-zsh ([see here](https://github.com/ohmyzsh/ohmyzsh)) installed to ```$HOME/.oh-my-zsh```
 
 ## install
 
@@ -30,7 +30,7 @@ you can create the following files in your home-directory, that will automatical
 
 ## oh-my-zsh custom folder
 
-* everything inside the ```oh-my-zsh/custom``` folder of this repository will be copied to the custom folder inside your oh-my-zsh installation (````$ZSH/custom````)
+* everything inside the ```oh-my-zsh/custom``` folder of this repository will be linked to the custom folder inside your oh-my-zsh installation (````$HOME/.oh-my-zsh/custom````)
 
 ## sources
 
