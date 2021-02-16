@@ -7,6 +7,7 @@ you need to install the following packages to use this dotfiles to their full ex
 * git
 * vim
 * rcm ([see here](https://github.com/thoughtbot/rcm#installation))
+* oh-my-zsh ([see here](https://github.com/ohmyzsh/ohmyzsh)) installed to ```$HOME/.oh-my-zsh``` (if oh-my-zsh is not installed in your home-directory you need to modify the .zshrc file)
 
 ## install
 
