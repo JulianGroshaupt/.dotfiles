@@ -26,6 +26,8 @@ if [[ "$SHELL" == *zsh ]]; then
 	git
 	rust
 	rustup
+	zsh-autosuggestions
+	zsh-syntax-highlighting
     )
 
     # plugin-specific configurations
