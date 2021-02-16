@@ -1,4 +1,6 @@
-# dofiles
+# .dofiles
+
+This repository holds my dotfiles and oh-my-zsh customization.
 
 ## required packages
 
