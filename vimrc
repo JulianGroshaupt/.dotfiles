@@ -49,3 +49,6 @@ set undolevels=1000
 
 " backspace behavior
 set backspace=indent,eol,start
+
+" disable mouse
+set mouse-=a
