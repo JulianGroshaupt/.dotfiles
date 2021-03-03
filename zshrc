@@ -36,4 +36,8 @@ if [[ "$SHELL" == *zsh ]]; then
 
     # load oh-my-zsh
     source $ZSH/oh-my-zsh.sh
+
+    # setup oh-my-zsh updates
+    DISABLE_UPDATE_PROMPT=true
+    DISABLE_AUTO_UPDATE=true
 fi
