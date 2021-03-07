@@ -14,9 +14,24 @@ you need to install the following packages to use this dotfiles to their full ex
 
 ## install
 
+you can automatically install this repository with all dependencies by running the following command (requires curl to be installed):
+
+```bash -c "$(curl -fsSL https://raw.githubusercontent.com/JulianGroshaupt/.dotfiles/main/install.sh)"```
+
+or you can download the installation script and then run it (requires wget to be installed):
+
+1. with wget: ```wget https://raw.githubusercontent.com/JulianGroshaupt/.dotfiles/main/install.sh```
+2. make executeable: ```chmod +x install.sh```
+3. run it: ```./install.sh```
+
+### manual installation
+
+alternatively you can install it all on your own, following the steps below:
+
 1. install required packages (see above)
 2. clone this repository (to ```$HOME/.dotfiles```)
-3. run install.sh
+3. update your default shell with ```chsh -s /bin/zsh```
+4. run command ```RCRC=$HOME/.dotfiles/rcrc rcup```
 
 ## update
 
