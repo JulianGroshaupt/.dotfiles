@@ -9,3 +9,11 @@ alias lla="ls -la"
 
 # cd & clear
 alias cdc="cd && clear"
+alias cl="clear"
+
+# docker-compose
+alias dcu="docker-compose up"
+alias dcud="docker-compose up -d"
+alias dcd="docker-compose down"
+alias dcdu="docker-compose down && docker-compose up"
+alias dcdud="docker-compose down && docker-compose up -d"
