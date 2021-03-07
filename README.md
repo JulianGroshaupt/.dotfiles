@@ -9,12 +9,13 @@ you need to install the following packages to use this dotfiles to their full ex
 * git
 * vim
 * rcm ([see here](https://github.com/thoughtbot/rcm#installation))
+* zsh (as the users default shell)
 * oh-my-zsh ([see here](https://github.com/ohmyzsh/ohmyzsh)) installed to ```$HOME/.oh-my-zsh```
 
 ## install
 
 1. install required packages (see above)
-2. clone this repository
+2. clone this repository (to ```$HOME/.dotfiles```)
 3. run install.sh
 
 ## update
@@ -31,6 +32,7 @@ you can create the following files in your home-directory, that will automatical
 ## oh-my-zsh custom folder
 
 * everything inside the ```oh-my-zsh/custom``` folder of this repository will be linked to the custom folder inside your oh-my-zsh installation (````$HOME/.oh-my-zsh/custom````)
+* you need to remove the symbolic link to update oh-my-zsh
 
 ## sources
 
