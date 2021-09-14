@@ -23,6 +23,7 @@ if [[ "$SHELL" == *zsh ]]; then
 	cargo
 	docker
 	docker-compose
+	flutter
 	git
 	rust
 	rustup
