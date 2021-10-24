@@ -24,12 +24,12 @@ if [[ $OSTYPE == linux* ]]; then
         echo -e "${RED}[!]  error upgrading apt packages"
         exit 1
     }
-    sudo apt install -y git vim rcm zsh > /dev/null 2>&1 ||{
+    sudo apt install -y git vim rcm tmux zsh > /dev/null 2>&1 ||{
 	echo -e "${RED}[!]  error installing dependencies"
 	exit 1
     }
 elif [[ $OSTYPE == darwin* ]]; then
-    brew install git vim rcm zsh > /dev/null 2>&1 ||{
+    brew install git vim rcm tmux zsh > /dev/null 2>&1 ||{
 	echo -e "${RED}[!]${NO_C}  error installing dependencies"
 	exit 1
     }

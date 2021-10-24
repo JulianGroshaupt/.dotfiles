@@ -27,6 +27,7 @@ if [[ "$SHELL" == *zsh ]]; then
 	git
 	rust
 	rustup
+	tmux
 	zsh-autosuggestions
 	zsh-syntax-highlighting
     )
@@ -34,6 +35,9 @@ if [[ "$SHELL" == *zsh ]]; then
     # plugin-specific configurations
     zstyle ':completion:*:*:docker:*' option-stacking yes
     zstyle ':completion:*:*:docker-*:*' option-stacking yes
+
+    # setup oh-my-zsh tmux
+    : ${ZSH_TMUX_AUTOSTART:=true}
 
     # load oh-my-zsh
     source $ZSH/oh-my-zsh.sh
