@@ -13,8 +13,15 @@ user_and_host() {
     echo "%{$fg[$USERANDHOSTCOLOR]%}%n@%m"
 }
 
+# upterm
+in_upterm() {
+    if (( ${+UPTERM_ADMIN_SOCKET} )); then
+	echo "%{$fg[red]%}✈ "
+    fi
+}
+
 # prompt
-PROMPT="$(user_and_host) %{$fg[blue]%}%~ %{$reset_color%}➜  "
+PROMPT="$(in_upterm)$(user_and_host) %{$fg[blue]%}%~ %{$reset_color%}➜  "
 
 # right prompt
 RPROMPT='$(git_prompt_info)'
