@@ -39,10 +39,10 @@ if [[ "$SHELL" == *zsh ]]; then
     # setup oh-my-zsh tmux
     : ${ZSH_TMUX_AUTOSTART:=true}
 
+    # setup oh-my-zsh updates
+    : ${DISABLE_UPDATE_PROMPT:=true}
+    : ${DISABLE_AUTO_UPDATE:=true}
+
     # load oh-my-zsh
     source $ZSH/oh-my-zsh.sh
-
-    # setup oh-my-zsh updates
-    DISABLE_UPDATE_PROMPT=true
-    DISABLE_AUTO_UPDATE=true
 fi
