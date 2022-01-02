@@ -20,7 +20,6 @@ if [[ "$SHELL" == *zsh ]]; then
 
     # update list of plugins here
     plugins=(
-	cargo
 	docker
 	docker-compose
 	flutter
