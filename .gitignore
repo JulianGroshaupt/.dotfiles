@@ -1,2 +1,7 @@
 vim/bundle/*
 !vim/bundle/Vundle.vim
+
+tmux/plugins/*
+!tmux/plugins/tpm
+
+tmux/resurrect

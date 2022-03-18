@@ -1,3 +1,3 @@
 EXCLUDES="README.md LICENSE install.sh update.sh"
 DOTFILES_DIRS=".dotfiles .dotfiles-private"
-SYMLINK_DIRS="oh-my-zsh/custom vim"
+SYMLINK_DIRS="oh-my-zsh/custom vim tmux"
