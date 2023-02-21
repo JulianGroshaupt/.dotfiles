@@ -25,7 +25,6 @@ if [[ "$SHELL" == *zsh ]]; then
 	flutter
 	git
 	rust
-	rustup
 	tmux
 	zsh-autosuggestions
 	zsh-syntax-highlighting

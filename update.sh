@@ -11,3 +11,6 @@ git submodule update --init --recursive
 # update
 cd $HOME
 rcup
+
+# update tmux
+tmux source ~/.tmux.conf
