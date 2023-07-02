@@ -35,7 +35,7 @@ if [[ "$SHELL" == *zsh ]]; then
     zstyle ':completion:*:*:docker-*:*' option-stacking yes
 
     # setup oh-my-zsh tmux
-    : ${ZSH_TMUX_AUTOSTART:=true}
+    : ${ZSH_TMUX_AUTOSTART:=false}
 
     # setup oh-my-zsh updates
     : ${DISABLE_UPDATE_PROMPT:=true}
